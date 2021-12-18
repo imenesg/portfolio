@@ -1,0 +1,15 @@
+.sobre{
+    background-color: var(--color1);
+}
+.sobre h2{
+    font-size: 1.5rem;
+    color: var(--color3);
+    text-align: center;
+}
+.sobre p{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    padding: 0 1rem;
+    text-align: start;
+    line-height: 2rem;
+}

@@ -1,0 +1,41 @@
+.section-card{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: wideCard;
+    animation-duration: 1s;
+}
+ .name{
+    font-size: 2rem;
+    color: #fff;
+}
+.foto_redes{
+    
+}
+.foto_card{
+    border-radius: 50%;
+    border: var(--color3) 1rem solid;
+    padding: .5rem;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    color: var(--color3);
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.rede-icon{
+
+}
+
+@keyframes wideCard {
+    from {transform: scale(0.1);}
+    to {transform: scale(1)}
+  }

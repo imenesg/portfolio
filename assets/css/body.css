@@ -1,0 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.darker {
+  background: black;
+  content: "";
+  opacity: .9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.instrucao{
+  margin-top: .5rem;
+  color: rgba(0, 0, 0, 0.486);
+}

@@ -10,6 +10,17 @@ footer{
     height: 50px;
     background-color: var(--color3);
 }
+.emailContato{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+}
+.emailContato .email-icon{
+    margin-right: .5rem;
+}
 .creditos{
     color: #fff;
     margin-top: 1rem;

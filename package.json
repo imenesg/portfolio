@@ -2,10 +2,10 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://imenesg.github.io/portfolio",
+  "homepage": "https://imenesg.github.io/portfolio/",
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

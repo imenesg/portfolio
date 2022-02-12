@@ -2,8 +2,10 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "portfolio/dist/",
+  "homepage": "https://imenesg.github.io/portfolio/",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "vite": "^2.8.0"
   }
 }

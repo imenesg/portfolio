@@ -14,7 +14,13 @@ footer{
     color: #fff;
     margin-top: 1rem;
     text-align: center;
+    font-size: 1.2rem;
+    display: flex;
 }
 .creditos img{
     width: 4rem;
+}
+.email-icon{
+    font-size: 1.3rem;
+    margin-right: .5rem;
 }
